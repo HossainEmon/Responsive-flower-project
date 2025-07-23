@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* common style css */
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.primary-font {
+  font-size: 1rem;
+  color: rgb(0, 0, 0, 50%);
+}
+.span {
+  color: #e95a08;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 15px;
+  background-color: #e95a08;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  color: white;
+}
+
+/* navbar section */
+.navbar {
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  padding: 20px;
+  text-decoration: none;
+}
+.header {
+}
+/* banner section */
+.banner {
+  align-items: center;
+  margin-top: 90px;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  width: 470px;
+  font-size: 22px;
+}
+.banner-section img {
+}
+/* plant  */
+.plant {
+  text-align: center;
+  margin-top: 120px;
+}
+.plant-section p {
+  width: 700px;
+  margin: auto;
+}
+.plant-section h2 {
+  font-size: 3rem;
+}
+
+.card {
+  width: 270px;
+  text-align: center;
+}
+.card h4 {
+  margin-top: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
