@@ -71,7 +71,7 @@
 /* plant  */
 .plant {
   text-align: center;
-  margin-top: 120px;
+  margin: 50px 0px;
 }
 .plant-section p {
   width: 700px;
@@ -82,8 +82,9 @@
 }
 
 .card {
-  width: 270px;
+  width: 280px;
   text-align: center;
+  margin-top: 20px;
 }
 .card h4 {
   margin-top: 20px;
@@ -92,4 +93,35 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+/* lover section */
+.lover-section {
+  margin-top: 100px;
+  height: 100%;
+}
+.love-img {
+  flex: 1;
+}
+.love-img img {
+  height: 600px;
+}
+.lover-right-section {
+  flex: 1;
+  justify-content: center;
+  padding: 50px;
+}
+.lover-right-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.lover-right-section ul li {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.lover-right-section ul {
+  width: 540px;
+  padding: 10px;
 }
