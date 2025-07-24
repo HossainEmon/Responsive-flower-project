@@ -125,3 +125,24 @@
   width: 540px;
   padding: 10px;
 }
+
+/* join section */
+.join-image {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 530px;
+  padding: 20px 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.join-title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: white;
+}
+.input {
+  padding: 20px 200px;
+}
