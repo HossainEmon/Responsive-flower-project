@@ -20,7 +20,7 @@
   font-variation-settings: "wdth" 100;
 }
 /* img {
-  width: 100%;
+  max-width: 100%;
 } */
 
 .primary-font {
@@ -36,7 +36,7 @@
 }
 
 .btn-primary {
-  width: 270px;
+  min-width: 100%;
   padding: 15px;
   background-color: #e95a08;
   font-size: 1rem;
@@ -86,20 +86,21 @@
 .plant-section h2 {
   font-size: 3rem;
 }
-
-.card {
-  width: auto;
-  text-align: center;
-  margin-top: 20px;
-}
-.card h4 {
-  margin-top: 20px;
-}
-
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: space-between;
+  gap: 15px;
+}
+
+.card {
+  text-align: center;
+  margin-top: 20px;
+}
+.card img {
+  min-width: 100%;
+}
+.card h4 {
+  margin-top: 20px;
 }
 
 /* lover section */
@@ -111,7 +112,8 @@
   flex: 1;
 }
 .love-img img {
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
 .lover-right-section {
   flex: 1;
@@ -275,11 +277,19 @@
   .background-image {
     flex-direction: column;
   }
+  .navbar ul li:nth-child(-n + 3) {
+    display: none;
+  }
+  .banner-image img {
+    max-width: 100%;
+  }
 
   .card-container {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    gap: 10px;
+  }
+  .card img {
+    max-width: 100%;
   }
   .primary-font {
     font-size: 18px;
@@ -301,15 +311,55 @@
     font-size: 24px;
     font-weight: bold;
   }
-  .lover-right-section ul {
-    width: 540px;
-    padding: 10px;
+
+  .latest-title {
+    font-size: 2rem;
+    color: #ff6f00;
+    margin-bottom: 10px;
   }
+
+  .latest-description {
+    color: #666;
+    width: 400px;
+  }
+  .latest-description,
+  .primary-font {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .lover-right-section ul {
+    max-width: 100%;
+    padding: 20px;
+  }
+
   .image-content-three {
     color: #fff;
     font-size: 1rem;
-    height: fit-content;
+    font-weight: 200;
   }
-  .latest-image-three {
+
+  .join-image {
+    min-height: 275px;
+  }
+  .join-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .input {
+    padding: 20px 8px;
+    text-align: left;
+  }
+  .join-section-button {
+    padding: 20px 12px;
+    background-color: #e95a08;
+    border: none;
+    color: white;
+  }
+  .footer-content,
+  .footer-item ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 }
