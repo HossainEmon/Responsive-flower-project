@@ -277,6 +277,14 @@
   .background-image {
     flex-direction: column;
   }
+  .background-image {
+    padding: 0px 20px;
+  }
+  .banner {
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
   .navbar ul li:nth-child(-n + 3) {
     display: none;
   }
@@ -287,6 +295,7 @@
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding: 0px 20px;
   }
   .card img {
     max-width: 100%;
@@ -302,6 +311,7 @@
   .lover-section {
     margin-top: 50px;
     height: 100%;
+    padding: 0px 20px;
   }
   .lover-right-section {
     justify-content: center;
@@ -356,6 +366,9 @@
     background-color: #e95a08;
     border: none;
     color: white;
+  }
+  .footer-section {
+    padding: 0px 20px;
   }
   .footer-content,
   .footer-item ul {
